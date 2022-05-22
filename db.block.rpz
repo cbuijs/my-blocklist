@@ -1,0 +1,11 @@
+$TTL 3600
+@ SOA localhost hostmaster 1653186600 7200 120 3600 3600 
+@ A 0.0.0.0
+@ AAAA ::0
+;
+appmetrica.yandex.net CNAME .
+*.appmetrica.yandex.net CNAME .
+iterable.com CNAME .
+*.iterable.com CNAME .
+ravenjs.com CNAME .
+*.ravenjs.com CNAME .
